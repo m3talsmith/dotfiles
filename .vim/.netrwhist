@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/m3talsmith/projects/dragonhoard-rails/app/assets/stylesheets/application'
+let g:netrw_dirhist_2='/home/m3talsmith/projects/dragonhoard-rails/app/controllers'
+let g:netrw_dirhist_3='/home/m3talsmith/Applications/.sync'

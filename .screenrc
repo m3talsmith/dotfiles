@@ -1,0 +1,6 @@
+shell -${SHELL}
+
+multiuser on
+
+acladd lordbyron
+acladd m3talsmith
