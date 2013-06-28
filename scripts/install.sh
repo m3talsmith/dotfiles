@@ -39,7 +39,6 @@ ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.vim ~/.vim
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
-echo "Resourcing ..."
-source ~/.zshrc
-
+echo "To finalize the configuration changes you need to run:"
+echo "  source ~/.zshrc"
 echo "Good to go!"
