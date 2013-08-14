@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/m3talsmith/Projects/dragon-hoard/lib/views'
-let g:netrw_dirhist_2='/Users/m3talsmith/Projects/dragon-hoard/lib/views/static'
-let g:netrw_dirhist_3='/Users/m3talsmith/Projects/rails-dragon-hoard/spec/support'
-let g:netrw_dirhist_4='/Users/m3talsmith/Projects/buildgem/foo_styles'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/mchristenson/Projects/WebView/app/controllers/admin'
+let g:netrw_dirhist_2='/Users/mchristenson/Projects/webview_resources'
+let g:netrw_dirhist_3='/Users/mchristenson/Projects/webview_resources/spec'
