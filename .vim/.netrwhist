@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/mchristenson/projects/pots/spec'
 let g:netrw_dirhist_2='/Users/mchristenson/projects/pots/spec/models'
 let g:netrw_dirhist_3='/Users/mchristenson/projects/wj-dragon-hoard/app/controllers/apis'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/mchristenson/projects/pots'
 let g:netrw_dirhist_6='/Users/mchristenson/projects/pots/app'
 let g:netrw_dirhist_7='/Users/mchristenson/projects/pots/app/controllers'
 let g:netrw_dirhist_8='/Users/mchristenson/projects/WebView/app/models/webview'
+let g:netrw_dirhist_9='/home/m3talsmith/projects/bravery'

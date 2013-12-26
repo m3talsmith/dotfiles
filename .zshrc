@@ -47,6 +47,3 @@ export EDITOR='/usr/bin/vim'
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=$PATH:/opt/bin
-
-### Added rvm support for OS X
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
