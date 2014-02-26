@@ -30,6 +30,10 @@ if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]
 then
   mv ~/.zshrc ~/.dotfiles/backups/
 fi
+if [ -f ~/.gitconfig ] || [ -h ~/.gitconfig ]
+then
+  mv ~/.gitconfig ~/.dotfiles/backups/
+fi
 
 echo "Linking .dotfiles ..."
 ln -s ~/.dotfiles/.pryrc ~/.pryrc
@@ -38,6 +42,7 @@ ln -s ~/.dotfiles/.screenrc ~/.screenrc
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.vim ~/.vim
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 echo "To finalize the configuration changes you need to run:"
 echo "  source ~/.zshrc"
