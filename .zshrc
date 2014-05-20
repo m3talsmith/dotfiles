@@ -47,3 +47,7 @@ export EDITOR='/usr/bin/vim'
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=$PATH:/opt/bin
+
+### Golang workspace
+export GOPATH=$HOME/projects/golang
+export PATH=$PATH:$GOPATH/bin

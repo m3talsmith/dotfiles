@@ -1,11 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/m3talsmith/projects/ivr/app'
-let g:netrw_dirhist_2='/home/m3talsmith/projects/ivr'
-let g:netrw_dirhist_3='/home/m3talsmith/projects/ivr/config'
-let g:netrw_dirhist_4='/home/m3talsmith/projects/ivr/app/models/sms/uhs001'
-let g:netrw_dirhist_5='/home/m3talsmith/projects/ivr/lib'
-let g:netrw_dirhist_6='/home/m3talsmith/projects/ivr/lib/ivr'
-let g:netrw_dirhist_7='/home/m3talsmith/projects/ivr/lib'
-let g:netrw_dirhist_8='/home/m3talsmith/projects/ivr'
-let g:netrw_dirhist_9='/home/m3talsmith/projects/ivr/app/models/sms/uhs001'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/m3talsmith/projects/skynet/lib'
+let g:netrw_dirhist_2='/home/m3talsmith/projects/skynet/lib/web-socket'
+let g:netrw_dirhist_3='/home/m3talsmith/projects/skynet/lib'
+let g:netrw_dirhist_4='/home/m3talsmith/projects/herb/loyalty/test/unit'
