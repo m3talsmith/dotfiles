@@ -1,6 +1,8 @@
 [user]
-	email = michael@rebelhold.com
+	email = michael.christenson@nextiva.com
 	name = Michael Christenson II
 [alias]
 	st = status
-  lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = simple

@@ -40,6 +40,7 @@ unsetopt correct_all
 
 # Customize to your needs...
 
+### Ruby Version Manager: http://rvm.io/
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export EDITOR='/usr/bin/vim'
 
@@ -51,3 +52,15 @@ export PATH=$PATH:/opt/bin
 ### Golang workspace
 export GOPATH=$HOME/projects/golang
 export PATH=$PATH:$GOPATH/bin
+
+### Android Studio
+export ANDROIDWORKSPACE=$HOME/projects/android
+export ANDROIDSTUDIOPATH='/usr/local/android-studio'
+export PATH=$PATH:$ANDROIDSTUDIOPATH/bin
+
+### Node Version Manager
+[ -s "/home/m3talsmith/.nvm/nvm.sh" ] && . "/home/m3talsmith/.nvm/nvm.sh" # This loads nvm
+
+### Perl dependencies
+PERL_MB_OPT="--install_base \"/home/m3talsmith/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/m3talsmith/perl5"; export PERL_MM_OPT;

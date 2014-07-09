@@ -1,6 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/m3talsmith/projects/skynet/lib'
-let g:netrw_dirhist_2='/home/m3talsmith/projects/skynet/lib/web-socket'
-let g:netrw_dirhist_3='/home/m3talsmith/projects/skynet/lib'
-let g:netrw_dirhist_4='/home/m3talsmith/projects/herb/loyalty/test/unit'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/m3talsmith/unitedweb/cospace/Streams/public/angularjs/topics/directives'
+let g:netrw_dirhist_2='/home/m3talsmith/unitedweb/cospace/Streams/app/helpers'
+let g:netrw_dirhist_3='/home/m3talsmith/unitedweb/cospace/Streams/lib/presently'
+let g:netrw_dirhist_4='/home/m3talsmith/unitedweb/cospace/Streams/lib/presently/text_helper'
+let g:netrw_dirhist_5='/home/m3talsmith/unitedweb/cospace/Streams/lib/presently'
+let g:netrw_dirhist_6='/home/m3talsmith/unitedweb/cospace/Streams/lib'
+let g:netrw_dirhist_7='/home/m3talsmith/unitedweb/cospace/Streams/public/angularjs/topics'
+let g:netrw_dirhist_8='/home/m3talsmith/unitedweb/cospace/Streams/app/controllers/api/topics'
+let g:netrw_dirhist_9='/home/m3talsmith/unitedweb/cospace/Streams/app/controllers/api'
