@@ -1,9 +1,9 @@
 stamp=$(date +"%s")
 stampDir=$(date +"%Y/%m/%d")
 
-echo "Backing up current .dotfiles ..."
 if [ -d ~/.dotfiles ]
 then
+  echo "Backing up current .dotfiles ..."
   mv ~/.dotfiles ~/.dotfiles_${stamp}.bak
 fi
 
@@ -13,12 +13,23 @@ hash git >/dev/null && /usr/bin/env git clone https://github.com/m3talsmith/dotf
   exit
 }
 
-echo "Backing up current files ..."
 baseDir=${HOME}/.dotfiles
 backupDir=${baseDir}/backups
 currentBackupDir=${backupDir}/${stampDir}
 mkdir -p ${currentBackupDir}
-backupFiles=( .pryrc .screenrc .vimrc .vim .oh-my-zsh .zshrc .gitconfig )
+backupFiles=( .pryrc .screenrc .vimrc .vim .zshrc .gitconfig )
+
+if [ -d ${HOME}/.oh-my-zsh ]
+then
+  echo "Reinstalling oh-my-zsh ..."
+  rm  -rf ${HOME}/.oh-my-zsh
+  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  source ${HOME}/.zshrc
+  echo "Installing spaceship ..."
+  git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+  ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+fi
+
 for file in ${backupFiles[@]}
 do
   if [ -f ${HOME}/${file} ] || [ -d ${HOME}/${file} ]
