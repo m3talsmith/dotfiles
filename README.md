@@ -1,6 +1,6 @@
 Install
 =======
 
-``` sh
-wget --no-check-certificate https://raw.githubusercontent.com/m3talsmith/dotfiles/master/scripts/install.sh -O - | sh
+``` bash
+bash -c "$(wget https://raw.github.com/m3talsmith/dotfiles/master/scripts/install.sh -O -)"
 ```

@@ -1,7 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/m3talsmith/unitedweb/cospace/Streams/app/controllers/api'
-let g:netrw_dirhist_2='/home/m3talsmith/unitedweb/cospace/Streams/app/controllers/api/topics'
-let g:netrw_dirhist_3='/home/m3talsmith/projects/golang/src/code.google.com/r/m3talsmith-golang/src'
-let g:netrw_dirhist_4='/home/m3talsmith/projects/golang/src/code.google.com/r/m3talsmith-golang/src/pkg'
-let g:netrw_dirhist_5='/home/m3talsmith/projects/golang/src/code.google.com/r/m3talsmith-golang/src/pkg/log'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/gunslinger/teams/theforges.lab.ex/bdgr'
